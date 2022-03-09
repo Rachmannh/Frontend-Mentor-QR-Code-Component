@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --font: 'Outfit', sans-serif;
+    --heading-font-size: 20px;
+    --sub-heading-font-size: 15px;
+    --head-fw: 700;
+    --sub-fw: 400;
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+/* main element */
+
+/* Dekstop View */
+
+.card {
+    position: relative;
+    top: 100px;
+    width: 18rem !important;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+.card img {
+    position: relative;
+    display: flex;
+    top: 15px;
+    width: auto;
+    margin: 0 16px;
+    border-radius: 10px;
+}
+
+.card-body h5 {
+    position: relative;
+    display: flex;
+    width: auto;
+    top: 15%;
+    left: 15%;
+    transform: translate(-15%, 15%);
+    font-family: var(--font);
+    font-size: 20px !important;
+    font-weight: var(--head-fw);
+    line-height: 1.4;
+    color: var(--dark-blue);
+}
+
+.card-body p {
+    position: relative;
+    top: 40px;
+    font-family: var(--font);
+    font-size: 17px;
+    font-weight: var(--head-fw);
+    line-height: 1.4;
+    color: var(--dark-blue);
+}
+
+.attribution {
+    position: relative;
+    top: 130px;
+}
+
+.attribution a {
+    text-decoration: none;
+    margin: 1px 5px;
+    font-family: var(--heading-font-size);
+    font-size: var(--sub-heading-font-size);
+    font-weight: var(--head-fw);
+    color: var(--dark-blue);
+}
+
+
+
+/* end main element */
